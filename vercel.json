@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "DATABASE_URL": "postgresql://andrewbie:npg_phNLedUTX01a@ep-silent-darkness-a8prxs0x-pooler.eastus2.azure.neon.tech/sensai?sslmode=require"
+    }
+  }
+}
