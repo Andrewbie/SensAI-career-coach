@@ -8,9 +8,11 @@ export default async function CoverLetterPage() {
   const coverLetters = await getCoverLetters();
 
   return (
-    <div>
-      <div className="flex flex-col md:flex-row gap-2 items-center justify-between mb-5">
-        <h1 className="text-6xl font-bold gradient-title">My Cover Letters</h1>
+    <div className=" px-2">
+      <div className="flex flex-col md:flex-row gap-3 md:gap-2 items-center justify-between mb-5">
+        <h1 className="text-4xl md:text-6xl font-bold gradient-title h-16 md:h-auto">
+          My Cover Letters
+        </h1>
         <Link href="/cover-letter/new">
           <Button>
             <Plus className="h-4 w-4 mr-2" />
